@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 153, 0);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.nav-area1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-area1-logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://images.pexels.com/photos/534121/pexels-photo-534121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-area2 {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* --------------nav---------------- */
+
+main {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+/* --------------main---------------- */
+
+#section1 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* --------------main-section1--------------- */
+
+.sec1-img {
+    width: calc(100% / 2);
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2019/07/21/19/02/blue-4353363_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sec1-img:hover {
+    background-image: url('https://cdn.pixabay.com/photo/2019/10/12/17/47/animal-4544411_960_720.jpg');
+    transition: 1s;
+}
+
+.sec1-text {
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 2);
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    
+}
+
+span {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* --------------main-section1--------------- */
+
+#section2 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+/* --------------main-section2--------------- */
+
+.sec2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2019/09/12/14/43/new-york-4471754_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.sec2-mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.438);    
+}
+
+.sec2-text {
+    width: 30%;
+    height: 20%;
+    position: relative;
+    top: 45%;
+    left: 35%;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100%;
+    color: white;
+    background-color: black;
+    font-family: 'Zhi Mang Xing', cursive;
+   
+}
+
+/* --------------main-section2--------------- */
+
+#section3 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------main-section3--------------- */
+
+.sec3-container1 {
+    width: calc(100% / 3 - 10px);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sec3-container1 .sec3-img {
+    width: 100%;
+    height: calc(100% / 2);
+    background-image: url('https://cdn.pixabay.com/photo/2019/10/17/20/41/winter-4557798_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-container1 .sec3-text {
+    width: 100%;
+    height: calc(100% / 2);
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* --------------main-section3-container1-------------- */
+
+.sec3-container2 {
+    width: calc(100% / 3 - 10px);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sec3-container2 .sec3-img {
+    width: 100%;
+    height: calc(100% / 2);
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-container2 .sec3-text {
+    width: 100%;
+    height: calc(100% / 2);
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.sec3-container3 {
+    width: calc(100% / 3 - 10px);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sec3-container3 .sec3-img {
+    width: 100%;
+    height: calc(100% / 2);
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/28/23/35/landscape-615429_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-container3 .sec3-text {
+    width: 100%;
+    height: calc(100% / 2);
+    color: white;
+    text-align: center;
+}
+
+/* --------------main-section3-container3-------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: royalblue;
+}
+
+/* --------------footer---------------- */
+
+@media screen and (max-width:991px) {
+    nav {
+        height: 80px;
+        justify-content: flex-start;
+    }
+    .nav-area1-logo {
+        background-image: url('https://cdn.pixabay.com/photo/2017/05/15/23/44/heart-icon-2316451_960_720.png');
+    }
+    .nav-area1-logo:hover {}
+    .nav-area2 {
+        display: none;
+        position: relative;
+        flex-direction: column;
+    }
+    /* --------------media nav---------------- */
+    #section1 {
+        flex-direction: column;
+    }
+    .sec1-img {
+        width: 100%;
+        height: calc(100% / 2);
+    }
+    .sec1-text {
+        width: 100%;
+        height: calc(100% / 2);
+    }
+    /* --------------media main section1---------------- */
+    #section3 {
+        height: 300vh;
+        flex-direction: column;
+    }
+    .sec3-container1 {
+        width: 100%;
+        height: calc(100% / 2);
+        flex-direction: column-reverse;
+    }
+    
+    .sec3-container1 .sec3-img {
+        width: 100%;
+        height: calc(100% / 2);
+     }
+    
+    .sec3-container1 .sec3-text {
+        
+        height: calc(100% / 2);
+       
+       
+    }
+    /* --------------media main section3---------------- */
+}
